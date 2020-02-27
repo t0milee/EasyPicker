@@ -12,7 +12,6 @@
 		7939F45E2407F5B900B6C3DA /* EasyPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7939F4502407F5B800B6C3DA /* EasyPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7939F4722408041D00B6C3DA /* EasyDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939F4712408041D00B6C3DA /* EasyDatePicker.swift */; };
 		7939F4742408044B00B6C3DA /* EasyStringPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939F4732408044B00B6C3DA /* EasyStringPicker.swift */; };
-		7939F47724080ED900B6C3DA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7939F47624080ED800B6C3DA /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +32,6 @@
 		7939F45D2407F5B900B6C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7939F4712408041D00B6C3DA /* EasyDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyDatePicker.swift; sourceTree = "<group>"; };
 		7939F4732408044B00B6C3DA /* EasyStringPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyStringPicker.swift; sourceTree = "<group>"; };
-		7939F47624080ED800B6C3DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 			children = (
 				7939F47524080D8800B6C3DA /* Source */,
 				7939F4502407F5B800B6C3DA /* EasyPicker.h */,
-				7939F47624080ED800B6C3DA /* Info.plist */,
 			);
 			path = EasyPicker;
 			sourceTree = "<group>";
@@ -193,7 +190,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7939F47724080ED900B6C3DA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,6 +22,8 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "MIT", :file => "LICENSE" }
   spec.author = { "Tomislav Jankovic" => "jankovic.tm@gmail.com" }
   spec.platform = :ios
+  spec.swift_version = "5.0"
+  spec.ios.deployment_target = '10.0'
   spec.source = { :git => "https://github.com/t0milee/EasyPicker.git", :tag => "#{spec.version}" }
 
   spec.source_files = "EasyPicker/Source/*.swift"
