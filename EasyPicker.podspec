@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   spec.name = "EasyPicker"
   spec.version = "0.1.0"
-  spec.summary = "EasyPicker let's you inject a Date/UI Picker in a matter of just a few lines of code."
+  spec.summary = "Elegant picker solution using DI"
 
   spec.description  = <<-DESC
     EasyPicker let's you inject a Date/UI Picker in a matter of just a few lines of code.

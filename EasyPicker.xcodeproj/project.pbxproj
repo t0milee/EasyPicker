@@ -12,6 +12,7 @@
 		7939F45E2407F5B900B6C3DA /* EasyPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7939F4502407F5B800B6C3DA /* EasyPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7939F4722408041D00B6C3DA /* EasyDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939F4712408041D00B6C3DA /* EasyDatePicker.swift */; };
 		7939F4742408044B00B6C3DA /* EasyStringPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939F4732408044B00B6C3DA /* EasyStringPicker.swift */; };
+		7939F4A1240949F300B6C3DA /* EasySingleStringPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939F4A0240949F300B6C3DA /* EasySingleStringPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		7939F45D2407F5B900B6C3DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7939F4712408041D00B6C3DA /* EasyDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyDatePicker.swift; sourceTree = "<group>"; };
 		7939F4732408044B00B6C3DA /* EasyStringPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyStringPicker.swift; sourceTree = "<group>"; };
+		7939F4A0240949F300B6C3DA /* EasySingleStringPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySingleStringPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				7939F4712408041D00B6C3DA /* EasyDatePicker.swift */,
 				7939F4732408044B00B6C3DA /* EasyStringPicker.swift */,
+				7939F4A0240949F300B6C3DA /* EasySingleStringPicker.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7939F4742408044B00B6C3DA /* EasyStringPicker.swift in Sources */,
+				7939F4A1240949F300B6C3DA /* EasySingleStringPicker.swift in Sources */,
 				7939F4722408041D00B6C3DA /* EasyDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

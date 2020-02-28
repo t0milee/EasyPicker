@@ -8,6 +8,6 @@
 
 import UIKit
 
-class EasyDatePicker: NSObject {
+public class EasyDatePicker: NSObject {
 
 }
